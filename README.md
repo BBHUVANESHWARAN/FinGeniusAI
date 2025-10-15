@@ -1,4 +1,4 @@
-”
+# FinGeniusAI
 
 🧠 1. Objective
 
@@ -79,47 +79,11 @@ Agent	Role	Example Task
 👨‍👩‍👧 Family Finance Agent	Family-level budget	“Your family’s total monthly expense was ₹42,000”
 🔔 Action Agent	Executes notifications & updates	Sends WhatsApp/email alerts automatically
 🧱 7. System Architecture (High-Level)
-Architecture Flow (Text-based)
-┌────────────────────────────────────────────────────┐
-│                    FinGenius AI                    │
-├────────────────────────────────────────────────────┤
-│                      Frontend                      │
-│  (Next.js + Tailwind + Recharts + Framer Motion)   │
-└──────────────┬─────────────────────────────────────┘
-               │
-               ▼
-┌────────────────────────────────────────────────────┐
-│                   Backend API Layer                │
-│      (FastAPI / Node.js + CrewAI + LangChain)      │
-│────────────────────────────────────────────────────│
-│ AI Orchestrator (LangGraph)                        │
-│    ├─ Expense Analyzer Agent                       │
-│    ├─ Budget Coach Agent                           │
-│    ├─ DebtZero Agent                               │
-│    ├─ GoalForge Agent                              │
-│    ├─ Tax Buddy Agent                              │
-│    ├─ StoryTeller Agent                            │
-│    ├─ Action & Notification Agent                  │
-└────────────────────────────────────────────────────┘
-               │
-               ▼
-┌────────────────────────────────────────────────────┐
-│                 Data & AI Layer                    │
-│ - Gemini 1.5 Flash (free API key)                  │
-│ - Ollama (Llama3 / Mistral local models)           │
-│ - LlamaIndex + ChromaDB (memory)                   │
-└────────────────────────────────────────────────────┘
-               │
-               ▼
-┌────────────────────────────────────────────────────┐
-│                Database & Integrations             │
-│ - Supabase (PostgreSQL + Auth)                     │
-│ - Google Sheets API / Gmail API                    │
-│ - Telegram / WhatsApp for notifications            │
-└────────────────────────────────────────────────────┘
+
 
 🧠 8. Tech Stack (Free + Open Source)
-Layer	Tools
+Layer	Tools:
+
 Frontend	Next.js 15, TailwindCSS, shadcn/ui, Framer Motion, Recharts
 Backend	FastAPI / Node.js (Express), LangChain, CrewAI, LlamaIndex
 LLM / AI Engine	Gemini 1.5 Flash (Free), Ollama (local), Mistral, Llama3
@@ -193,3 +157,4 @@ Premium	Family dashboard, Investment insights, Multi-agent orchestration	₹499/
 🌟 14. Vision
 
 To become India’s most trusted AI-powered finance companion, built with transparency, empathy, and intelligence — empowering every user to make smart, confident financial decisions.
+
