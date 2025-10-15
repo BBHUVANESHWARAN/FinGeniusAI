@@ -49,6 +49,7 @@ Category	Description
 👨‍👩‍👧 Family Dashboard	Shared finance view for family members with privacy controls.
 🧠 AI Recommendations	Personalized insights like “You overspent ₹3,000 on dining this month.”
 🔔 Notifications & Actions	WhatsApp/email reminders for bills, EMIs, and goals.
+
 ⚙️ 5. How It Works (Flow)
 User Flow:
 User → Dashboard → Data Upload / Connect → AI Analysis → Reports & Insights → Notifications → Goals & Tracking
@@ -66,7 +67,8 @@ AI Flow (Agentic Intelligence):
 
 Each agent works independently and communicates with others through an AI Orchestrator (LangGraph or CrewAI) — ensuring accuracy and personalization.
 
-🧩 6. Core Modules (AI Agents)
+🧩 6. Core Modules (AI Agents):
+
 Agent	Role	Example Task
 💰 Expense Analyzer Agent	Reads and classifies expenses	“Categorize spending by food, travel, rent”
 📊 Budget Coach Agent	Plans monthly budgets	“You spent 8% more this month; reduce shopping by ₹1,000”
@@ -82,6 +84,7 @@ Agent	Role	Example Task
 
 
 🧠 8. Tech Stack (Free + Open Source)
+
 Layer	Tools:
 
 Frontend	Next.js 15, TailwindCSS, shadcn/ui, Framer Motion, Recharts
@@ -92,7 +95,9 @@ Storage	Supabase Storage / Firebase
 Deployment	Vercel (frontend), Render / Railway (backend), GitHub Actions
 Integrations	Google Sheets, Gmail API, Yahoo Finance API, Telegram Bot API
 Monitoring	PostHog (open-source analytics)
+
 🧭 9. MVP Plan (Phase-wise)
+
 🥇 Phase 1 – Core MVP (0–2 months)
 
 Expense Analyzer + Budget Coach + StoryTeller
@@ -120,6 +125,7 @@ Add Telegram/WhatsApp reminders
 Freemium + Premium plans
 
 🧭 10. Usage Scenarios
+
 Scenario	What FinGenius AI Does
 Monthly salary credited	Tracks and adds to income chart
 You overspend	Suggests saving tips
@@ -127,6 +133,7 @@ You upload Form-16	Files draft ITR and explains it
 You plan a trip	Creates savings plan for goal
 You forget a bill	Sends reminder to pay
 You want to review year	Narrates your financial journey as a story
+
 🔒 11. Security & Privacy
 
 🔐 Supabase Auth – JWT-based authentication
@@ -136,6 +143,7 @@ You want to review year	Narrates your financial journey as a story
 🧱 No financial data shared externally
 
 🧠 AI models run locally (optional via Ollama)
+
 
 🚀 12. Future Expansion
 
@@ -149,12 +157,8 @@ You want to review year	Narrates your financial journey as a story
 
 🌍 Multi-language support (Hindi, Tamil, Telugu, English)
 
-💰 13. Monetization Plan
-Tier	Features	Price
-Free	Expense tracking, Storytelling, Budget alerts	₹0
-Pro	AI voice, Goal planner, Tax automation	₹199/month
-Premium	Family dashboard, Investment insights, Multi-agent orchestration	₹499/month
-🌟 14. Vision
+🌟 13. Vision
 
 To become India’s most trusted AI-powered finance companion, built with transparency, empathy, and intelligence — empowering every user to make smart, confident financial decisions.
+
 
