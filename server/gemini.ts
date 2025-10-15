@@ -112,7 +112,7 @@ Generate 2-4 insights as JSON array with: type (tip/warning/achievement/recommen
 title, content, optional category, and priority (low/medium/high).`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       config: {
         systemInstruction: systemPrompt,
         responseMimeType: "application/json",
